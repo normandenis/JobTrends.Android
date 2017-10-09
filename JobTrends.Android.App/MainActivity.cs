@@ -1,5 +1,4 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
 
 namespace JobTrends.Android.App
@@ -12,8 +11,7 @@ namespace JobTrends.Android.App
 			base.OnCreate(savedInstanceState);
 
 			// Set our view from the "main" layout resource
-			SetContentView(Resource.Layout.Main);
+			this.SetContentView(Resource.Layout.Main);
 		}
 	}
 }
-

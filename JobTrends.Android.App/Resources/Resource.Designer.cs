@@ -41,6 +41,34 @@ namespace JobTrends.Android.App
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f040001
+			public const int linearLayout1 = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int linearLayout2 = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int linearLayout3 = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int linearLayout4 = 2130968580;
+			
+			// aapt resource value: 0x7f040000
+			public const int tabHost1 = 2130968576;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
@@ -62,6 +90,9 @@ namespace JobTrends.Android.App
 			
 			// aapt resource value: 0x7f030000
 			public const int app_name = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int toto = 2130903041;
 			
 			static String()
 			{
